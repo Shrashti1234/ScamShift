@@ -1,0 +1,41 @@
+{
+  "model_role": "Candidate",
+  "created_at": "2026-11-20T05:17:04+00:00",
+  "threshold": 0.5,
+  "feedback_weight": 18.0,
+  "training_rows_base": 3869,
+  "incoming_batch_rows": 60,
+  "total_training_rows": 3929,
+  "incoming_batch_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "false_alarm": 0.0,
+    "positives": 30,
+    "negatives": 30,
+    "total": 60,
+    "confusion": {
+      "tp": 30,
+      "fp": 0,
+      "fn": 0,
+      "tn": 30
+    }
+  },
+  "benchmark_metrics": {
+    "accuracy": 0.9891,
+    "precision": 0.9742,
+    "recall": 0.9379,
+    "f1": 0.9557,
+    "false_alarm": 0.0035,
+    "positives": 161,
+    "negatives": 1129,
+    "total": 1290,
+    "confusion": {
+      "tp": 151,
+      "fp": 4,
+      "fn": 10,
+      "tn": 1125
+    }
+  }
+}

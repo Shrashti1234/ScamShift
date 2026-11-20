@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-11-20T05:17:13+00:00",
+  "decision": "ELIGIBLE_FOR_PROMOTION",
+  "eligible_for_promotion": true,
+  "metric_justification": "METRIC SELECTION JUSTIFICATION:\nIn SMS scam and financial fraud detection, error costs are strictly asymmetric:\n1. False Negatives (Missing a scam message): Critical severity. Victims suffer direct financial theft,\n   credential compromise, or malware infection. Maximizing Recall on emerging scam patterns is essential.\n2. False Positives (Flagging legitimate messages): Medium severity. Blocking genuine bank OTPs, salary\n   notifications, or personal messages erodes user trust and disrupts critical communications.\n3. Selection: The F1-Score (harmonic mean of Precision and Recall) serves as the primary balanced metric.\n   We couple F1 with two safety guardrails: a False Alarm ceiling (<= 5.0%) and a Historical Benchmark\n   Retention gate (<= 2.0% recall loss) to prevent catastrophic forgetting on historical communications.",
+  "gates": [
+    {
+      "criterion": "1. F1-Score Improvement on New Batch",
+      "rule": "Candidate F1 > Champion F1",
+      "champion_val": "53.0%",
+      "candidate_val": "100.0%",
+      "delta": "+47.00 pp",
+      "passed": true
+    },
+    {
+      "criterion": "2. Significant Scam Recall Improvement",
+      "rule": "Candidate Recall >= Champion Recall + 15 pp",
+      "champion_val": "46.0%",
+      "candidate_val": "100.0%",
+      "delta": "+54.00 pp",
+      "passed": true
+    },
+    {
+      "criterion": "3. False Alarm Safety Ceiling",
+      "rule": "Candidate False Alarm Rate <= 5.0%",
+      "champion_val": "26.0%",
+      "candidate_val": "0.0%",
+      "delta": "Within Safety Cap",
+      "passed": true
+    },
+    {
+      "criterion": "4. Benchmark Retention (No Catastrophic Forgetting)",
+      "rule": "Benchmark Recall Loss <= 2.0 pp",
+      "champion_val": "95.0%",
+      "candidate_val": "94.0%",
+      "delta": "Loss: 1.00 pp",
+      "passed": true
+    }
+  ],
+  "metrics_summary": {
+    "incoming_batch": {
+      "champion": {
+        "accuracy": 0.6,
+        "precision": 0.63,
+        "recall": 0.46,
+        "f1": 0.53,
+        "false_alarm": 0.26
+      },
+      "candidate": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "false_alarm": 0.0
+      }
+    },
+    "benchmark_holdout": {
+      "champion": {
+        "recall": 0.95,
+        "false_alarm": 0.004
+      },
+      "candidate": {
+        "recall": 0.94,
+        "false_alarm": 0.004
+      }
+    }
+  }
+}

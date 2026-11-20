@@ -1,0 +1,65 @@
+id,text,label,category
+INC_001,"Aapka SBI account freeze ho gaya hai. KYC update karne ke liye OTP abhi share karein",1,Account takeover
+INC_002,"Dear customer, your electricity connection will be disconnected tonight at 9:30 PM due to unpaid bill. Call officer immediately",1,Utility billing
+INC_003,"Your parcel is held at the sorting hub. Pay release fee of Rs 25 via UPI link http://courier-pay.example to avoid return",1,Parcel fee
+INC_004,"Work from home opportunity! Earn Rs 3000 to Rs 8000 daily by liking YouTube videos. Deposit Rs 1000 refundable fee to activate task",1,Task scam
+INC_005,"Congratulations! Your mobile number won Rs 25,00,000 in KBC lucky draw. Contact lottery manager to claim prize",1,Lottery scam
+INC_006,"Urgent: Your HDFC netbanking is locked. Download bank security app from http://hdfc-security.example.apk to restore access",1,Bank APK fraud
+INC_007,"Aapka Paytm wallet KYC expire ho gaya hai. Wallet unblock karne ke liye agent ko passcode batayein",1,Account takeover
+INC_008,"Package delivery failed: Incorrect address. Settle reshipping charges of Rs 49 within 24 hours at http://track-parcel.example",1,Parcel fee
+INC_009,"Part-time crypto investment: Earn 30% guaranteed daily return. Transfer initial fund of Rs 5000 to official manager wallet",1,Task scam
+INC_010,"Power department alert: Urgent bill arrears pending. Settle immediately on personal UPI to stop meter disconnection",1,Utility billing
+INC_011,"Income Tax refund of Rs 18,450 approved. Click http://it-refund.example and enter debit card PIN and CVV to claim",1,Tax refund scam
+INC_012,"Credit card reward points worth Rs 9,800 expiring today. Redeem cash directly to bank account by sharing OTP",1,Account takeover
+INC_013,"Aapka SIM card block hone wala hai. 24 ghante ke andar verification ke liye customer care number par OTP batayein",1,SIM swap scam
+INC_014,"Instant loan approved of Rs 5,00,000 with 0% interest. Pay processing charge of Rs 1,500 via GPay to disburse amount",1,Loan scam
+INC_015,"Your Netflix subscription renewal failed. Update payment card details at http://netflix-secure.example to keep streaming",1,Subscription scam
+INC_016,"Courier update: Customs duty of Rs 350 required to clear international gift parcel. Send payment screenshot to courier agent",1,Parcel fee
+INC_017,"Amazon gift voucher worth Rs 5000 waiting for you. Complete 3 product rating tasks after depositing Rs 500 security fee",1,Task scam
+INC_018,"Bank alert: Unauthorized login attempt detected from Mumbai. Reply with your registered MPIN to secure account",1,Account takeover
+INC_019,"Speed challan traffic fine pending on vehicle DL01AB1234. Pay discount fine of Rs 500 at http://echallan-pay.example before court notice",1,Fine scam
+INC_020,"Earn money reviewing hotels on Google Maps. Join Telegram channel and deposit registration amount to receive daily payout",1,Task scam
+INC_021,"Exclusive credit card upgrade offered with lifetime free benefits. Share current card expiry and CVV with executive for verification",1,Account takeover
+INC_022,"Your order has been stopped at customs. Pay clearance tax immediately through phonepe to avoid police enquiry",1,Parcel fee
+INC_023,"Gas subsidy payment of Rs 1200 on hold. Submit Aadhaar number and OTP to update bank link",1,Subsidy scam
+INC_024,"Urgent job vacancy: Data entry executive required. Monthly salary Rs 45,000. Send Rs 850 for ID card and kit delivery",1,Job scam
+INC_025,"Your WhatsApp account will be deactivated within 12 hours. Verify account by sending the 6-digit code received via SMS",1,Account takeover
+INC_026,"Flight ticket confirmation pending. Please transfer additional baggage insurance fee of Rs 400 to agent UPI",1,Travel scam
+INC_027,"Free 5G recharge activated on your number for 3 months. Click http://free-5g.example to claim offer before midnight",1,Recharge scam
+INC_028,"Dear customer, your PAN card is not linked to your bank account. Account will be deactivated. Update KYC via link http://pan-kyc.example",1,Account takeover
+INC_029,"Courier company notice: Unclaimed parcel will be auctioned in 48 hours. Pay warehouse holding fee of Rs 75",1,Parcel fee
+INC_030,"Daily trading signal group: Make 10x profit in 1 hour. Send investment fund to admin wallet address now",1,Task scam
+INC_031,"Hi Mom, I reached the hostel safely. Will call you after dinner.",0,Personal message
+INC_032,"Your Swiggy delivery partner Rahul is at your doorstep with order #8921.",0,Delivery notification
+INC_033,"Dear customer, your salary of Rs 65,000 has been credited to your account ending in 4102 on 31-Oct. Available balance Rs 78,450.",0,Banking alert
+INC_034,"Your one-time password (OTP) for login to IRCTC is 482910. Valid for 5 minutes. Do not share OTP with anyone, including staff.",0,OTP notification
+INC_035,"Reminder: Doctor appointment with Dr. Sharma is scheduled for tomorrow at 4:30 PM at City Hospital.",0,Appointment reminder
+INC_036,"Your electricity bill for the month of October is Rs 1,420. Due date is 15-Nov. Pay via official discom portal or BBPS.",0,Utility bill
+INC_037,"Can you please share the slide deck for tomorrow's project presentation?",0,Workplace message
+INC_038,"Your Uber ride has arrived. Driver Amit in Maruti Swift (DL4CA5678) is waiting outside.",0,Ride sharing
+INC_039,"Dear customer, Rs 450.00 debited from account ending 4102 at Apollo Pharmacy UPI. Info: UPI/491028471/Medicines.",0,Banking alert
+INC_040,"Your Amazon package containing 'Running Shoes' has been delivered to your front door security desk.",0,Delivery notification
+INC_041,"Hey, are we still meeting for lunch at 1 PM at the cafeteria?",0,Personal message
+INC_042,"Your college semester exam registration has been confirmed. Hall ticket will be issued on Monday.",0,Educational notice
+INC_043,"Your flight 6E-204 from Delhi to Bengaluru is on time. Web check-in is now open.",0,Travel notification
+INC_044,"Payment of Rs 899 to Airtel Broadband was successful. Receipt number: BRB9284719.",0,Utility receipt
+INC_045,"Dad requested to pick up grocery on the way back from office. The list is sent on WhatsApp.",0,Personal message
+INC_046,"Your mutual fund SIP of Rs 5,000 for HDFC Top 100 has been successfully executed on 05-Nov.",0,Investment alert
+INC_047,"Dear customer, statement for your credit card ending in 8912 has been generated. Total due: Rs 12,340. Due date: 20-Nov.",0,Banking statement
+INC_048,"Hi Priya, could you review the PR and leave comments when you get a chance?",0,Workplace message
+INC_049,"Your booking for movie 'Inception' at PVR Cinemas 7:00 PM Audi 4 has been confirmed. Seat numbers: G12, G13.",0,Entertainment booking
+INC_050,"Your train ticket PNR 2849103829 is confirmed. Coach B3, Berth 24 (Side Lower).",0,Travel notification
+INC_051,"Dentist appointment rescheduled to Friday 11:00 AM as per your request.",0,Appointment reminder
+INC_052,"Dear user, 100 MB data remaining from your daily pack of 2 GB. Recharge via MyJio app.",0,Telecom alert
+INC_053,"Thanks for dining with us at Barbeque Nation! Please rate your experience.",0,Feedback request
+INC_054,"Please remember to bring the signed hard copy of the NDA tomorrow morning.",0,Workplace message
+INC_055,"Vehicle service for car registration DL08CK9012 is completed. You can collect your car from workshop.",0,Service notification
+INC_056,"Library reminder: The book 'Deep Learning' by Goodfellow is due for return on 12-Nov.",0,Educational notice
+INC_057,"Meeting link for Weekly Sprint Retrospective: https://meet.google.com/abc-defg-hij",0,Workplace message
+INC_058,"Your blood test reports from Dr Lal PathLabs are ready for download from the official patient portal.",0,Health notification
+INC_059,"Hey brother, Happy Birthday! Wishing you lots of happiness and success in the coming year.",0,Personal message
+INC_060,"Society maintenance fee of Rs 3,200 for November has been credited via NEFT. Receipt generated.",0,Housing receipt
+INC_003,"Your parcel is held at the sorting hub. Pay release fee of Rs 25 via UPI link http://courier-pay.example to avoid return",1,Parcel fee
+INC_061,,1,Corrupted missing text row
+INC_062,"Incomplete record with no label",,Corrupted missing label row
+

@@ -1,0 +1,22 @@
+{
+  "model_role": "Champion (Baseline)",
+  "evaluated_at": "2026-11-20T05:17:02+00:00",
+  "threshold": 0.5,
+  "sample_count": 60,
+  "metrics": {
+    "accuracy": 0.6,
+    "precision": 0.6364,
+    "recall": 0.4667,
+    "f1": 0.5385,
+    "false_alarm": 0.2667,
+    "positives": 30,
+    "negatives": 30,
+    "total": 60,
+    "confusion": {
+      "tp": 14,
+      "fp": 8,
+      "fn": 16,
+      "tn": 22
+    }
+  }
+}

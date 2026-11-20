@@ -1,7 +1,6 @@
-.venv/
-runtime/
 __pycache__/
-*.py[cod]
-kiet-env/
+*.pyc
 .pytest_cache/
-
+mlruns/
+*.sqlite
+*.db
